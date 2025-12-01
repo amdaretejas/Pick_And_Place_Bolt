@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/build/yolov8_obb/ament_cmake_core/yolov8_obbConfig-version.cmake

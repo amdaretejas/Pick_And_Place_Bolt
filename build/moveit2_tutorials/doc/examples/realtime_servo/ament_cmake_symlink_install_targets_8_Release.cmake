@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tejas/moveit2_obb/build/moveit2_tutorials/doc/examples/realtime_servo/servo_keyboard_input" "/home/tejas/moveit2_obb/build/moveit2_tutorials/doc/examples/realtime_servo/servo_cpp_interface_demo" "TARGETS" "servo_keyboard_input" "servo_cpp_interface_demo" "DESTINATION" "lib/moveit2_tutorials")

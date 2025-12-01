@@ -1,0 +1,106 @@
+[0.032s] Invoking command in '/home/tejas/moveit2_obb/build/panda_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/panda_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/panda_moveit_config
+[0.129s] -- The C compiler identification is GNU 11.4.0
+[0.228s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.375s] -- Detecting C compiler ABI info - done
+[0.400s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.400s] -- Detecting C compile features
+[0.401s] -- Detecting C compile features - done
+[0.407s] -- Detecting CXX compiler ABI info
+[0.567s] -- Detecting CXX compiler ABI info - done
+[0.579s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.579s] -- Detecting CXX compile features
+[0.580s] -- Detecting CXX compile features - done
+[0.587s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.835s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.930s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.977s] -- Found rclcpp: 16.0.16 (/opt/ros/humble/share/rclcpp/cmake)
+[1.032s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.043s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.053s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.093s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.161s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.162s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.311s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.359s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.435s] -- Looking for pthread.h
+[1.566s] -- Looking for pthread.h - found
+[1.568s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.696s] -- Found Threads: TRUE  
+[1.893s] -- Configuring done
+[1.898s] -- Generating done
+[1.901s] -- Build files have been written to: /home/tejas/moveit2_obb/build/panda_moveit_config
+[1.933s] Invoked command in '/home/tejas/moveit2_obb/build/panda_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/panda_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/panda_moveit_config
+[1.934s] Invoking command in '/home/tejas/moveit2_obb/build/panda_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/panda_moveit_config -- -j6 -l6
+[1.999s] Invoked command in '/home/tejas/moveit2_obb/build/panda_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/panda_moveit_config -- -j6 -l6
+[2.001s] Invoking command in '/home/tejas/moveit2_obb/build/panda_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/panda_moveit_config
+[2.010s] -- Install configuration: ""
+[2.011s] -- Execute custom install script
+[2.011s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/lib/panda_moveit_config/arm_control_from_UI.py
+[2.025s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit.rviz
+[2.036s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_empty.rviz
+[2.049s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_gazebo_obb.py
+[2.062s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_rviz.launch.py
+[2.074s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/chomp_planning.yaml
+[2.087s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/controller_setting.yaml
+[2.099s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/gripper_moveit_controllers.yaml
+[2.110s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/hand.xacro
+[2.122s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/initial_positions.yaml
+[2.132s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/joint_limits.yaml
+[2.144s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/kinematics.yaml
+[2.155s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/lerp_planning.yaml
+[2.166s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/motion_planning.rviz
+[2.177s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/moveit_controllers.yaml
+[2.188s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/ompl_planning.yaml
+[2.198s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.gazebo_ros2_control.xacro
+[2.209s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.srdf
+[2.220s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.urdf.xacro
+[2.231s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.srdf.xacro
+[2.241s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.xacro
+[2.255s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[2.265s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_hand.gazebo_ros2_control.xacro
+[2.276s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/pilz_cartesian_limits.yaml
+[2.291s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml
+[2.299s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[2.309s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[2.323s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/trajopt_planning.yaml
+[2.333s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/arm_on_the_table.sdf
+[2.344s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.dae
+[2.358s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.stl
+[2.368s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.config
+[2.381s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.sdf
+[2.392s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_2.sdf
+[2.401s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_3.sdf
+[2.414s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_4.sdf
+[2.426s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.config
+[2.436s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.sdf
+[2.448s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_2.sdf
+[2.460s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_3.sdf
+[2.478s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_4.sdf
+[2.493s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.config
+[2.503s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.sdf
+[2.517s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_2.sdf
+[2.529s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_3.sdf
+[2.544s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_4.sdf
+[2.557s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.config
+[2.566s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.sdf
+[2.578s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/.setup_assistant
+[2.592s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_moveit_config
+[2.602s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_moveit_config
+[2.617s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.sh
+[2.629s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.dsv
+[2.642s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/path.sh
+[2.661s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/path.dsv
+[2.673s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.bash
+[2.688s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.sh
+[2.706s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.zsh
+[2.717s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.dsv
+[2.733s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/package.dsv
+[2.745s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/packages/panda_moveit_config
+[2.767s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake
+[2.781s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake
+[2.798s] -- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/package.xml
+[2.817s] Invoked command in '/home/tejas/moveit2_obb/build/panda_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/panda_moveit_config

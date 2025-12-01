@@ -1,0 +1,6 @@
+Invoking command in '/home/tejas/moveit2_obb/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/yolov8_obb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/yolov8_msgs
+Invoked command in '/home/tejas/moveit2_obb/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/yolov8_obb_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/yolov8_msgs
+Invoking command in '/home/tejas/moveit2_obb/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/yolov8_msgs -- -j6 -l6
+Invoked command in '/home/tejas/moveit2_obb/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/yolov8_msgs -- -j6 -l6
+Invoking command in '/home/tejas/moveit2_obb/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/yolov8_msgs
+Invoked command in '/home/tejas/moveit2_obb/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/yolov8_msgs

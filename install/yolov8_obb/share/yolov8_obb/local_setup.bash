@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/build/yolov8_obb/ament_cmake_environment_hooks/local_setup.bash

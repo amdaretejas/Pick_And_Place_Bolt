@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/build/moveit2_tutorials/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c

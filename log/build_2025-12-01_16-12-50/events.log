@@ -1,0 +1,955 @@
+[0.000000] (-) TimerEvent: {}
+[0.000091] (moveit2_tutorials) JobQueued: {'identifier': 'moveit2_tutorials', 'dependencies': OrderedDict()}
+[0.000154] (panda_moveit_config) JobQueued: {'identifier': 'panda_moveit_config', 'dependencies': OrderedDict()}
+[0.000186] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000201] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.000215] (yolov8_obb) JobQueued: {'identifier': 'yolov8_obb', 'dependencies': OrderedDict()}
+[0.000229] (moveit2_tutorials) JobStarted: {'identifier': 'moveit2_tutorials'}
+[0.005575] (panda_moveit_config) JobStarted: {'identifier': 'panda_moveit_config'}
+[0.009040] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.012931] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.016820] (yolov8_obb) JobStarted: {'identifier': 'yolov8_obb'}
+[0.021395] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'cmake'}
+[0.021640] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '/home/tejas/moveit2_obb/src/moveit2_tutorials', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/moveit2_tutorials'], 'cwd': '/home/tejas/moveit2_obb/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/moveit2_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.023648] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'cmake'}
+[0.024222] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'build'}
+[0.025494] (panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejas/moveit2_obb/build/panda_moveit_config', '--', '-j6', '-l6'], 'cwd': '/home/tejas/moveit2_obb/build/panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/panda_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.027115] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.027794] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[0.028358] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejas/moveit2_obb/build/robot_description', '--', '-j6', '-l6'], 'cwd': '/home/tejas/moveit2_obb/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.032320] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[0.032423] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[0.032452] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejas/moveit2_obb/build/yolov8_msgs', '--', '-j6', '-l6'], 'cwd': '/home/tejas/moveit2_obb/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.036308] (yolov8_obb) JobProgress: {'identifier': 'yolov8_obb', 'progress': 'cmake'}
+[0.036964] (yolov8_obb) JobProgress: {'identifier': 'yolov8_obb', 'progress': 'build'}
+[0.037367] (yolov8_obb) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejas/moveit2_obb/build/yolov8_obb', '--', '-j6', '-l6'], 'cwd': '/home/tejas/moveit2_obb/build/yolov8_obb', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/yolov8_obb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.075009] (panda_moveit_config) CommandEnded: {'returncode': 0}
+[0.076858] (panda_moveit_config) JobProgress: {'identifier': 'panda_moveit_config', 'progress': 'install'}
+[0.085932] (panda_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejas/moveit2_obb/build/panda_moveit_config'], 'cwd': '/home/tejas/moveit2_obb/build/panda_moveit_config', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/panda_moveit_config'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.086930] (robot_description) CommandEnded: {'returncode': 0}
+[0.087584] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[0.088697] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejas/moveit2_obb/build/robot_description'], 'cwd': '/home/tejas/moveit2_obb/build/robot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/robot_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.089871] (yolov8_obb) CommandEnded: {'returncode': 0}
+[0.092558] (yolov8_obb) JobProgress: {'identifier': 'yolov8_obb', 'progress': 'install'}
+[0.092595] (yolov8_obb) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejas/moveit2_obb/build/yolov8_obb'], 'cwd': '/home/tejas/moveit2_obb/build/yolov8_obb', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/yolov8_obb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.095071] (yolov8_msgs) StdoutLine: {'line': b'[  2%] Built target yolov8_msgs__cpp\n'}
+[0.095208] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] Built target yolov8_msgs__rosidl_generator_c\n'}
+[0.097074] (panda_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.097253] (panda_moveit_config) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.097331] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/lib/panda_moveit_config/arm_control_from_UI.py\n'}
+[0.097402] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit.rviz\n'}
+[0.097468] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_empty.rviz\n'}
+[0.097531] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_gazebo_obb.py\n'}
+[0.097692] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/launch/moveit_rviz.launch.py\n'}
+[0.098328] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/chomp_planning.yaml\n'}
+[0.098636] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/controller_setting.yaml\n'}
+[0.098947] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/gripper_moveit_controllers.yaml\n'}
+[0.099278] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/hand.xacro\n'}
+[0.099362] (-) TimerEvent: {}
+[0.099870] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/initial_positions.yaml\n'}
+[0.100128] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.102754] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/joint_limits.yaml\n'}
+[0.102930] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/kinematics.yaml\n'}
+[0.103005] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/lerp_planning.yaml\n'}
+[0.103191] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/motion_planning.rviz\n'}
+[0.103283] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/moveit_controllers.yaml\n'}
+[0.103360] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/ompl_planning.yaml\n'}
+[0.103436] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.gazebo_ros2_control.xacro\n'}
+[0.103512] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.srdf\n'}
+[0.103587] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda.urdf.xacro\n'}
+[0.103667] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.srdf.xacro\n'}
+[0.103815] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm.xacro\n'}
+[0.103908] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_arm_hand.srdf.xacro\n'}
+[0.103990] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/panda_hand.gazebo_ros2_control.xacro\n'}
+[0.104069] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/pilz_cartesian_limits.yaml\n'}
+[0.104146] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/ros2_controllers.yaml\n'}
+[0.104250] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_depthmap.yaml\n'}
+[0.104327] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/sensors_kinect_pointcloud.yaml\n'}
+[0.104402] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/config/trajopt_planning.yaml\n'}
+[0.104477] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/arm_on_the_table.sdf\n'}
+[0.111190] (robot_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.111539] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/camera.stl\n'}
+[0.111633] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/finger.stl\n'}
+[0.111760] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/finger_old.stl\n'}
+[0.111849] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/hand.stl\n'}
+[0.111914] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link0.stl\n'}
+[0.111976] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link1.stl\n'}
+[0.112035] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link2.stl\n'}
+[0.112095] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link3.stl\n'}
+[0.112155] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link4.stl\n'}
+[0.112215] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link5.stl\n'}
+[0.112276] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link6.stl\n'}
+[0.112335] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link7.stl\n'}
+[0.112395] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/camera.dae\n'}
+[0.112456] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.dae\n'}
+[0.112527] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/meshes/bolt.stl\n'}
+[0.112588] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.config\n'}
+[0.112671] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/bolt/model.sdf\n'}
+[0.112739] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_2.sdf\n'}
+[0.112800] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_3.sdf\n'}
+[0.112860] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model-1_4.sdf\n'}
+[0.112921] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.config\n'}
+[0.112983] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/ground_plane/model.sdf\n'}
+[0.113048] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_2.sdf\n'}
+[0.113107] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_3.sdf\n'}
+[0.113167] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model-1_4.sdf\n'}
+[0.113227] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.config\n'}
+[0.113287] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/sun/model.sdf\n'}
+[0.113347] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_2.sdf\n'}
+[0.113408] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/finger.dae\n'}
+[0.113476] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_yolov8_msgs\n'}
+[0.113551] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_3.sdf\n'}
+[0.113615] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model-1_4.sdf\n'}
+[0.113685] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.config\n'}
+[0.113751] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/worlds/table/model.sdf\n'}
+[0.113810] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/finger_old.dae\n'}
+[0.113875] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/hand.dae\n'}
+[0.113937] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/.setup_assistant\n'}
+[0.113997] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link0.dae\n'}
+[0.114057] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link1.dae\n'}
+[0.114117] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/panda_moveit_config\n'}
+[0.114180] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/panda_moveit_config\n'}
+[0.114243] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.sh\n'}
+[0.114303] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/ament_prefix_path.dsv\n'}
+[0.114364] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/path.sh\n'}
+[0.114434] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/environment/path.dsv\n'}
+[0.114496] (yolov8_obb) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.114579] (yolov8_obb) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.114642] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb//scripts/best.pt\n'}
+[0.115123] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb//scripts/yolov8_obb_publisher.py\n'}
+[0.115200] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb//scripts/yolov8_obb_subscriber.py\n'}
+[0.115266] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb//launch/yolov8_obb.launch.py\n'}
+[0.115330] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/lib/yolov8_obb/yolov8_obb_publisher.py\n'}
+[0.115392] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/lib/yolov8_obb/yolov8_obb_subscriber.py\n'}
+[0.115454] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/lib/yolov8_obb/yolov8_obb.launch.py\n'}
+[0.115515] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/ament_index/resource_index/package_run_dependencies/yolov8_obb\n'}
+[0.115576] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/ament_index/resource_index/parent_prefix_path/yolov8_obb\n'}
+[0.115636] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/environment/ament_prefix_path.sh\n'}
+[0.115712] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/environment/ament_prefix_path.dsv\n'}
+[0.115775] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link2.dae\n'}
+[0.115845] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link3.dae\n'}
+[0.115906] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link4.dae\n'}
+[0.115966] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link5.dae\n'}
+[0.116028] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link6.dae\n'}
+[0.116088] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link7.dae\n'}
+[0.116149] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/camera/camera.gazebo\n'}
+[0.116210] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/camera/camera.xacro\n'}
+[0.116280] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/panda.urdf\n'}
+[0.116342] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[0.116402] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[0.116468] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/environment/path.sh\n'}
+[0.116529] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[0.116591] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.bash\n'}
+[0.116666] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.sh\n'}
+[0.116735] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/environment/path.dsv\n'}
+[0.116800] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.zsh\n'}
+[0.116861] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[0.116927] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/path.sh\n'}
+[0.116988] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[0.117060] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.bash\n'}
+[0.117121] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.sh\n'}
+[0.117181] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[0.117242] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[0.117303] (robot_description) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/package.dsv\n'}
+[0.117364] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/local_setup.bash\n'}
+[0.117424] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/local_setup.sh\n'}
+[0.117484] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/local_setup.zsh\n'}
+[0.117544] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/local_setup.dsv\n'}
+[0.117603] (yolov8_obb) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/package.dsv\n'}
+[0.118484] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/local_setup.dsv\n'}
+[0.118594] (panda_moveit_config) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/package.dsv\n'}
+[0.125099] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] Built target yolov8_msgs__rosidl_typesupport_introspection_c\n'}
+[0.129274] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[0.131375] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[0.131563] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[0.131645] (robot_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/package.xml\n'}
+[0.133836] (yolov8_msgs) StdoutLine: {'line': b'[ 33%] Built target yolov8_msgs__rosidl_typesupport_cpp\n'}
+[0.137960] (robot_description) CommandEnded: {'returncode': 0}
+[0.138511] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/ament_index/resource_index/packages/yolov8_obb\n'}
+[0.138629] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/ament_index/resource_index/packages/panda_moveit_config\n'}
+[0.138732] (yolov8_msgs) StdoutLine: {'line': b'[ 43%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.138871] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/cmake/yolov8_obbConfig.cmake\n'}
+[0.141398] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig.cmake\n'}
+[0.141971] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/cmake/panda_moveit_configConfig-version.cmake\n'}
+[0.142119] (panda_moveit_config) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/panda_moveit_config/share/panda_moveit_config/package.xml\n'}
+[0.142284] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/cmake/yolov8_obbConfig-version.cmake\n'}
+[0.142520] (yolov8_obb) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_obb/share/yolov8_obb/package.xml\n'}
+[0.142620] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] Built target yolov8_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.143034] (yolov8_msgs) StdoutLine: {'line': b'[ 64%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.151111] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] Built target yolov8_msgs__rosidl_typesupport_c\n'}
+[0.158214] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[0.159606] (yolov8_obb) CommandEnded: {'returncode': 0}
+[0.172582] (yolov8_obb) JobEnded: {'identifier': 'yolov8_obb', 'rc': 0}
+[0.173608] (panda_moveit_config) CommandEnded: {'returncode': 0}
+[0.174147] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] Built target yolov8_msgs\n'}
+[0.189241] (panda_moveit_config) JobEnded: {'identifier': 'panda_moveit_config', 'rc': 0}
+[0.198269] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] Built target yolov8_msgs__py\n'}
+[0.199510] (-) TimerEvent: {}
+[0.207067] (moveit2_tutorials) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.220852] (yolov8_msgs) StdoutLine: {'line': b'[ 84%] Built target yolov8_msgs__rosidl_generator_py\n'}
+[0.247831] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.248075] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.248141] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target yolov8_msgs__rosidl_typesupport_c__pyext\n'}
+[0.299601] (-) TimerEvent: {}
+[0.313434] (moveit2_tutorials) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.323431] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.386033] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.386678] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[0.387030] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[0.387332] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[0.389250] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[0.389916] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[0.392681] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399593] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.399800] (-) TimerEvent: {}
+[0.400429] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.401115] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.404702] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.413386] (yolov8_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_yolov8_msgs_egg\n'}
+[0.423523] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[0.424155] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[0.424847] (yolov8_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejas/moveit2_obb/build/yolov8_msgs'], 'cwd': '/home/tejas/moveit2_obb/build/yolov8_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[0.432413] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.432977] (yolov8_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.433232] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[0.433635] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h\n'}
+[0.433920] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h\n'}
+[0.434186] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h\n'}
+[0.434415] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h\n'}
+[0.434484] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h\n'}
+[0.434588] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h\n'}
+[0.434719] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h\n'}
+[0.435004] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.435229] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h\n'}
+[0.435371] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[0.435546] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[0.436029] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[0.436255] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[0.436380] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.436864] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp\n'}
+[0.437022] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp\n'}
+[0.437271] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp\n'}
+[0.437401] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp\n'}
+[0.437563] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp\n'}
+[0.437776] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp\n'}
+[0.438076] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp\n'}
+[0.438218] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp\n'}
+[0.438332] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp\n'}
+[0.438440] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.438564] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp\n'}
+[0.439100] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.439245] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.439384] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.439871] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[0.440185] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[0.440287] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.440539] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.440704] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.440952] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[0.441095] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[0.441452] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.441672] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.441935] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.442291] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.443051] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py\n'}
+[0.443349] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[0.443542] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.443710] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.443869] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\n'}
+[0.443998] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py\n'}
+[0.444165] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py\n'}
+[0.444385] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result_s.c\n'}
+[0.444540] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py\n'}
+[0.444646] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference_s.c\n'}
+[0.444941] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.445164] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.445492] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.445827] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.446173] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.446520] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.446799] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl\n'}
+[0.446993] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl\n'}
+[0.447214] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg\n'}
+[0.447419] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg\n'}
+[0.447625] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[0.448017] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[0.448254] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[0.448399] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[0.448590] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[0.448932] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[0.449199] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[0.449503] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[0.449688] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[0.449898] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[0.450047] (yolov8_msgs) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[0.458650] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[0.459040] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.459267] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.459388] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.459554] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.459780] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.459944] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.460150] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.460421] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[0.460600] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[0.460756] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[0.461006] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[0.461333] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.461881] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.462152] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.462421] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[0.462648] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.463084] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[0.488287] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.493238] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...\n"}
+[0.493359] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...\n"}
+[0.495481] (moveit2_tutorials) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.495818] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.496265] (moveit2_tutorials) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.497509] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so\n'}
+[0.497880] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[0.498057] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.498333] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.498449] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.498525] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[0.498594] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.498770] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.498875] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.498938] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.499050] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[0.499115] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.499205] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.499268] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.499417] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[0.499483] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.499543] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake\n'}
+[0.499603] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/tejas/moveit2_obb/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.499867] (-) TimerEvent: {}
+[0.500399] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_common: 2.5.9 (/opt/ros/humble/share/moveit_common/cmake)\n'}
+[0.502041] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[0.504384] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.516980] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[0.599988] (-) TimerEvent: {}
+[0.638287] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.697607] (moveit2_tutorials) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700086] (-) TimerEvent: {}
+[0.795120] (moveit2_tutorials) StderrLine: {'line': b"\x1b[0mmoveit2_tutorials: You did not request a specific build type: Choosing 'Release' for maximum performance\x1b[0m\n"}
+[0.800189] (-) TimerEvent: {}
+[0.900414] (-) TimerEvent: {}
+[1.000731] (-) TimerEvent: {}
+[1.025633] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time thread \n'}
+[1.031649] (moveit2_tutorials) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[1.081086] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.088251] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.099382] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.100703] (-) TimerEvent: {}
+[1.117417] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.140859] (moveit2_tutorials) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.200832] (-) TimerEvent: {}
+[1.301088] (-) TimerEvent: {}
+[1.312079] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_core: 2.5.9 (/opt/ros/humble/share/moveit_core/cmake)\n'}
+[1.335798] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[1.388992] (moveit2_tutorials) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.401213] (-) TimerEvent: {}
+[1.452340] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.456979] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.501332] (-) TimerEvent: {}
+[1.546618] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.568845] (moveit2_tutorials) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.601445] (-) TimerEvent: {}
+[1.604649] (moveit2_tutorials) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.614972] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.685026] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.16 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.701586] (-) TimerEvent: {}
+[1.727319] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[1.801724] (-) TimerEvent: {}
+[1.838063] (moveit2_tutorials) StdoutLine: {'line': b'-- library: /usr/lib/x86_64-linux-gnu/libcurl.so\n'}
+[1.901820] (-) TimerEvent: {}
+[1.911769] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.912129] (moveit2_tutorials) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.001943] (-) TimerEvent: {}
+[2.102234] (-) TimerEvent: {}
+[2.202498] (-) TimerEvent: {}
+[2.208099] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_task_constructor_core: 0.1.3 (/opt/ros/humble/share/moveit_task_constructor_core/cmake)\n'}
+[2.221020] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[2.256080] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.272416] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[2.300311] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[2.302587] (-) TimerEvent: {}
+[2.387963] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_ros_perception: 2.5.9 (/opt/ros/humble/share/moveit_ros_perception/cmake)\n'}
+[2.391351] (moveit2_tutorials) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread \n'}
+[2.402765] (-) TimerEvent: {}
+[2.414917] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_servo: 2.5.9 (/opt/ros/humble/share/moveit_servo/cmake)\n'}
+[2.465427] (moveit2_tutorials) StdoutLine: {'line': b'-- Found interactive_markers: 2.3.2 (/opt/ros/humble/share/interactive_markers/cmake)\n'}
+[2.471322] (moveit2_tutorials) StdoutLine: {'line': b'-- Found rviz_visual_tools: 4.1.4 (/opt/ros/humble/share/rviz_visual_tools/cmake)\n'}
+[2.502862] (-) TimerEvent: {}
+[2.514311] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting assimp_DIR to: '/opt/ros/humble/share/rviz_assimp_vendor/cmake/../../../opt/rviz_assimp_vendor/lib/cmake/assimp-4.1'\n"}
+[2.525318] (moveit2_tutorials) StdoutLine: {'line': b"-- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'\n"}
+[2.527229] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OGRE\n'}
+[2.527333] (moveit2_tutorials) StdoutLine: {'line': b'--   static     : OFF\n'}
+[2.527386] (moveit2_tutorials) StdoutLine: {'line': b'--   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume\n'}
+[2.527451] (moveit2_tutorials) StdoutLine: {'line': b'--   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.527537] (moveit2_tutorials) StdoutLine: {'line': b'--   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media\n'}
+[2.527590] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain\n'}
+[2.527642] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib\n'}
+[2.527853] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI\n'}
+[2.527917] (moveit2_tutorials) StdoutLine: {'line': b'-- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE\n'}
+[2.527969] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.528018] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so\n'}
+[2.528066] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.528113] (moveit2_tutorials) StdoutLine: {'line': b'-- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so\n'}
+[2.528919] (moveit2_tutorials) StdoutLine: {'line': b'-- Could not find freeimage library\n'}
+[2.546870] (moveit2_tutorials) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[2.551602] (moveit2_tutorials) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   \n'}
+[2.602950] (-) TimerEvent: {}
+[2.630401] (moveit2_tutorials) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[2.630946] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[2.703078] (-) TimerEvent: {}
+[2.721638] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[2.721844] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.803211] (-) TimerEvent: {}
+[2.824435] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.824598] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.903360] (-) TimerEvent: {}
+[2.910522] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.910739] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove\n'}
+[3.003385] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[3.003540] (-) TimerEvent: {}
+[3.003636] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[3.084408] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[3.084584] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[3.103707] (-) TimerEvent: {}
+[3.171931] (moveit2_tutorials) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[3.203803] (-) TimerEvent: {}
+[3.265848] (moveit2_tutorials) StdoutLine: {'line': b'-- Found moveit_visual_tools: 4.1.2 (/opt/ros/humble/share/moveit_visual_tools/cmake)\n'}
+[3.303897] (-) TimerEvent: {}
+[3.404173] (-) TimerEvent: {}
+[3.405590] (moveit2_tutorials) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.504295] (-) TimerEvent: {}
+[3.604555] (-) TimerEvent: {}
+[3.681086] (moveit2_tutorials) StdoutLine: {'line': b'-- Generating done\n'}
+[3.704694] (-) TimerEvent: {}
+[3.756929] (moveit2_tutorials) StdoutLine: {'line': b'-- Build files have been written to: /home/tejas/moveit2_obb/build/moveit2_tutorials\n'}
+[3.777487] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[3.778112] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'build'}
+[3.778901] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tejas/moveit2_obb/build/moveit2_tutorials', '--', '-j6', '-l6'], 'cwd': '/home/tejas/moveit2_obb/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/moveit2_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[3.804798] (-) TimerEvent: {}
+[3.835024] (moveit2_tutorials) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_mtc.dir/src/pilz_mtc.cpp.o\x1b[0m\n'}
+[3.835206] (moveit2_tutorials) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object doc/examples/motion_planning_api/CMakeFiles/motion_planning_api_tutorial.dir/src/motion_planning_api_tutorial.cpp.o\x1b[0m\n'}
+[3.835286] (moveit2_tutorials) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object doc/examples/move_group_interface/CMakeFiles/move_group_interface_tutorial.dir/src/move_group_interface_tutorial.cpp.o\x1b[0m\n'}
+[3.835356] (moveit2_tutorials) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/mtc_tutorial.dir/src/mtc_node.cpp.o\x1b[0m\n'}
+[3.837557] (moveit2_tutorials) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object doc/examples/pilz_industrial_motion_planner/CMakeFiles/pilz_move_group.dir/src/pilz_move_group.cpp.o\x1b[0m\n'}
+[3.837701] (moveit2_tutorials) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object doc/tutorials/pick_and_place_with_moveit_task_constructor/CMakeFiles/minimal_mtc_tutorial.dir/src/minimal.cpp.o\x1b[0m\n'}
+[3.904896] (-) TimerEvent: {}
+[4.005157] (-) TimerEvent: {}
+[4.106623] (-) TimerEvent: {}
+[4.209847] (-) TimerEvent: {}
+[4.310203] (-) TimerEvent: {}
+[4.410475] (-) TimerEvent: {}
+[4.513763] (-) TimerEvent: {}
+[4.614068] (-) TimerEvent: {}
+[4.718262] (-) TimerEvent: {}
+[4.819051] (-) TimerEvent: {}
+[4.919388] (-) TimerEvent: {}
+[5.020707] (-) TimerEvent: {}
+[5.121004] (-) TimerEvent: {}
+[5.221397] (-) TimerEvent: {}
+[5.321744] (-) TimerEvent: {}
+[5.423716] (-) TimerEvent: {}
+[5.524077] (-) TimerEvent: {}
+[5.624437] (-) TimerEvent: {}
+[5.724829] (-) TimerEvent: {}
+[5.825197] (-) TimerEvent: {}
+[5.925569] (-) TimerEvent: {}
+[6.025831] (-) TimerEvent: {}
+[6.127891] (-) TimerEvent: {}
+[6.229711] (-) TimerEvent: {}
+[6.329999] (-) TimerEvent: {}
+[6.430258] (-) TimerEvent: {}
+[6.530595] (-) TimerEvent: {}
+[6.631012] (-) TimerEvent: {}
+[6.731342] (-) TimerEvent: {}
+[6.833720] (-) TimerEvent: {}
+[6.934031] (-) TimerEvent: {}
+[7.034359] (-) TimerEvent: {}
+[7.134704] (-) TimerEvent: {}
+[7.235098] (-) TimerEvent: {}
+[7.335399] (-) TimerEvent: {}
+[7.435869] (-) TimerEvent: {}
+[7.536268] (-) TimerEvent: {}
+[7.639839] (-) TimerEvent: {}
+[7.740146] (-) TimerEvent: {}
+[7.840424] (-) TimerEvent: {}
+[7.940718] (-) TimerEvent: {}
+[8.041085] (-) TimerEvent: {}
+[8.141392] (-) TimerEvent: {}
+[8.241713] (-) TimerEvent: {}
+[8.342040] (-) TimerEvent: {}
+[8.442510] (-) TimerEvent: {}
+[8.542852] (-) TimerEvent: {}
+[8.643161] (-) TimerEvent: {}
+[8.744718] (-) TimerEvent: {}
+[8.845024] (-) TimerEvent: {}
+[8.945393] (-) TimerEvent: {}
+[9.045718] (-) TimerEvent: {}
+[9.146014] (-) TimerEvent: {}
+[9.250905] (-) TimerEvent: {}
+[9.351307] (-) TimerEvent: {}
+[9.451726] (-) TimerEvent: {}
+[9.552474] (-) TimerEvent: {}
+[9.652906] (-) TimerEvent: {}
+[9.753347] (-) TimerEvent: {}
+[9.853773] (-) TimerEvent: {}
+[9.954167] (-) TimerEvent: {}
+[10.054514] (-) TimerEvent: {}
+[10.170751] (-) TimerEvent: {}
+[10.271097] (-) TimerEvent: {}
+[10.373740] (-) TimerEvent: {}
+[10.476729] (-) TimerEvent: {}
+[10.577046] (-) TimerEvent: {}
+[10.678729] (-) TimerEvent: {}
+[10.779023] (-) TimerEvent: {}
+[10.879328] (-) TimerEvent: {}
+[10.979686] (-) TimerEvent: {}
+[11.080070] (-) TimerEvent: {}
+[11.180371] (-) TimerEvent: {}
+[11.283249] (-) TimerEvent: {}
+[11.383583] (-) TimerEvent: {}
+[11.483932] (-) TimerEvent: {}
+[11.584287] (-) TimerEvent: {}
+[11.684622] (-) TimerEvent: {}
+[11.784971] (-) TimerEvent: {}
+[11.885285] (-) TimerEvent: {}
+[11.986707] (-) TimerEvent: {}
+[12.087073] (-) TimerEvent: {}
+[12.188146] (-) TimerEvent: {}
+[12.290180] (-) TimerEvent: {}
+[12.391235] (-) TimerEvent: {}
+[12.499741] (-) TimerEvent: {}
+[12.600143] (-) TimerEvent: {}
+[12.702727] (-) TimerEvent: {}
+[12.803176] (-) TimerEvent: {}
+[12.903557] (-) TimerEvent: {}
+[13.028742] (-) TimerEvent: {}
+[13.129051] (-) TimerEvent: {}
+[13.230726] (-) TimerEvent: {}
+[13.331041] (-) TimerEvent: {}
+[13.431376] (-) TimerEvent: {}
+[13.531739] (-) TimerEvent: {}
+[13.634929] (-) TimerEvent: {}
+[13.735416] (-) TimerEvent: {}
+[13.835923] (-) TimerEvent: {}
+[13.936322] (-) TimerEvent: {}
+[14.036660] (-) TimerEvent: {}
+[14.137116] (-) TimerEvent: {}
+[14.237601] (-) TimerEvent: {}
+[14.338172] (-) TimerEvent: {}
+[14.438632] (-) TimerEvent: {}
+[14.539729] (-) TimerEvent: {}
+[14.640044] (-) TimerEvent: {}
+[14.740471] (-) TimerEvent: {}
+[14.840893] (-) TimerEvent: {}
+[14.942731] (-) TimerEvent: {}
+[15.043164] (-) TimerEvent: {}
+[15.143495] (-) TimerEvent: {}
+[15.243821] (-) TimerEvent: {}
+[15.344137] (-) TimerEvent: {}
+[15.446747] (-) TimerEvent: {}
+[15.547190] (-) TimerEvent: {}
+[15.647518] (-) TimerEvent: {}
+[15.750980] (-) TimerEvent: {}
+[15.851837] (-) TimerEvent: {}
+[15.966715] (-) TimerEvent: {}
+[16.067104] (-) TimerEvent: {}
+[16.167576] (-) TimerEvent: {}
+[16.270783] (-) TimerEvent: {}
+[16.371184] (-) TimerEvent: {}
+[16.471514] (-) TimerEvent: {}
+[16.571982] (-) TimerEvent: {}
+[16.672341] (-) TimerEvent: {}
+[16.772795] (-) TimerEvent: {}
+[16.873242] (-) TimerEvent: {}
+[16.973674] (-) TimerEvent: {}
+[17.076991] (-) TimerEvent: {}
+[17.186260] (-) TimerEvent: {}
+[17.199230] (moveit2_tutorials) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX executable pilz_mtc\x1b[0m\n'}
+[17.286381] (-) TimerEvent: {}
+[17.386684] (-) TimerEvent: {}
+[17.487847] (-) TimerEvent: {}
+[17.588183] (-) TimerEvent: {}
+[17.688505] (-) TimerEvent: {}
+[17.789607] (-) TimerEvent: {}
+[17.891459] (-) TimerEvent: {}
+[17.994992] (-) TimerEvent: {}
+[18.095412] (-) TimerEvent: {}
+[18.161821] (moveit2_tutorials) StdoutLine: {'line': b'[ 26%] Built target pilz_mtc\n'}
+[18.195525] (-) TimerEvent: {}
+[18.197203] (moveit2_tutorials) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object doc/examples/planning_scene/CMakeFiles/planning_scene_tutorial.dir/src/planning_scene_tutorial.cpp.o\x1b[0m\n'}
+[18.295637] (-) TimerEvent: {}
+[18.396261] (-) TimerEvent: {}
+[18.496598] (-) TimerEvent: {}
+[18.597018] (-) TimerEvent: {}
+[18.697408] (-) TimerEvent: {}
+[18.800069] (-) TimerEvent: {}
+[18.900553] (-) TimerEvent: {}
+[19.000878] (-) TimerEvent: {}
+[19.101183] (-) TimerEvent: {}
+[19.201460] (-) TimerEvent: {}
+[19.216224] (moveit2_tutorials) StdoutLine: {'line': b'[ 34%] \x1b[32m\x1b[1mLinking CXX executable minimal_mtc_tutorial\x1b[0m\n'}
+[19.301567] (-) TimerEvent: {}
+[19.402257] (-) TimerEvent: {}
+[19.504483] (-) TimerEvent: {}
+[19.605028] (-) TimerEvent: {}
+[19.705708] (-) TimerEvent: {}
+[19.806064] (-) TimerEvent: {}
+[19.906848] (-) TimerEvent: {}
+[20.007860] (-) TimerEvent: {}
+[20.029507] (moveit2_tutorials) StdoutLine: {'line': b'[ 34%] Built target minimal_mtc_tutorial\n'}
+[20.052781] (moveit2_tutorials) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX executable pilz_move_group\x1b[0m\n'}
+[20.060898] (moveit2_tutorials) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object doc/examples/planning_scene_ros_api/CMakeFiles/planning_scene_ros_api_tutorial.dir/src/planning_scene_ros_api_tutorial.cpp.o\x1b[0m\n'}
+[20.108332] (-) TimerEvent: {}
+[20.181932] (moveit2_tutorials) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX executable move_group_interface_tutorial\x1b[0m\n'}
+[20.208678] (-) TimerEvent: {}
+[20.309049] (-) TimerEvent: {}
+[20.409338] (-) TimerEvent: {}
+[20.509636] (-) TimerEvent: {}
+[20.610038] (-) TimerEvent: {}
+[20.712107] (-) TimerEvent: {}
+[20.764338] (moveit2_tutorials) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable mtc_tutorial\x1b[0m\n'}
+[20.812230] (-) TimerEvent: {}
+[20.900588] (moveit2_tutorials) StdoutLine: {'line': b'[ 50%] Built target pilz_move_group\n'}
+[20.913775] (-) TimerEvent: {}
+[20.933805] (moveit2_tutorials) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object doc/examples/robot_model_and_robot_state/CMakeFiles/robot_model_and_robot_state_tutorial.dir/src/robot_model_and_robot_state_tutorial.cpp.o\x1b[0m\n'}
+[21.013944] (-) TimerEvent: {}
+[21.024523] (moveit2_tutorials) StdoutLine: {'line': b'[ 53%] Built target move_group_interface_tutorial\n'}
+[21.057765] (moveit2_tutorials) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object doc/examples/moveit_cpp/CMakeFiles/moveit_cpp_tutorial.dir/src/moveit_cpp_tutorial.cpp.o\x1b[0m\n'}
+[21.114054] (-) TimerEvent: {}
+[21.214411] (-) TimerEvent: {}
+[21.314930] (-) TimerEvent: {}
+[21.415300] (-) TimerEvent: {}
+[21.516894] (-) TimerEvent: {}
+[21.577101] (moveit2_tutorials) StdoutLine: {'line': b'[ 57%] Built target mtc_tutorial\n'}
+[21.605738] (moveit2_tutorials) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_keyboard_input.dir/src/servo_keyboard_input.cpp.o\x1b[0m\n'}
+[21.617001] (-) TimerEvent: {}
+[21.718840] (-) TimerEvent: {}
+[21.819210] (-) TimerEvent: {}
+[21.919610] (-) TimerEvent: {}
+[22.020028] (-) TimerEvent: {}
+[22.120444] (-) TimerEvent: {}
+[22.220890] (-) TimerEvent: {}
+[22.322643] (-) TimerEvent: {}
+[22.423045] (-) TimerEvent: {}
+[22.523448] (-) TimerEvent: {}
+[22.623928] (-) TimerEvent: {}
+[22.725879] (-) TimerEvent: {}
+[22.826255] (-) TimerEvent: {}
+[22.926639] (-) TimerEvent: {}
+[23.027028] (-) TimerEvent: {}
+[23.127479] (-) TimerEvent: {}
+[23.229294] (-) TimerEvent: {}
+[23.329710] (-) TimerEvent: {}
+[23.430136] (-) TimerEvent: {}
+[23.530564] (-) TimerEvent: {}
+[23.631009] (-) TimerEvent: {}
+[23.733727] (-) TimerEvent: {}
+[23.834180] (-) TimerEvent: {}
+[23.934612] (-) TimerEvent: {}
+[24.035022] (-) TimerEvent: {}
+[24.135386] (-) TimerEvent: {}
+[24.235846] (-) TimerEvent: {}
+[24.336252] (-) TimerEvent: {}
+[24.436692] (-) TimerEvent: {}
+[24.537064] (-) TimerEvent: {}
+[24.639877] (-) TimerEvent: {}
+[24.740207] (-) TimerEvent: {}
+[24.840552] (-) TimerEvent: {}
+[24.940973] (-) TimerEvent: {}
+[25.041365] (-) TimerEvent: {}
+[25.141708] (-) TimerEvent: {}
+[25.242003] (-) TimerEvent: {}
+[25.342319] (-) TimerEvent: {}
+[25.442608] (-) TimerEvent: {}
+[25.543735] (-) TimerEvent: {}
+[25.644057] (-) TimerEvent: {}
+[25.744388] (-) TimerEvent: {}
+[25.846726] (-) TimerEvent: {}
+[25.947038] (-) TimerEvent: {}
+[26.047321] (-) TimerEvent: {}
+[26.147715] (-) TimerEvent: {}
+[26.247985] (-) TimerEvent: {}
+[26.348272] (-) TimerEvent: {}
+[26.448560] (-) TimerEvent: {}
+[26.548902] (-) TimerEvent: {}
+[26.651890] (-) TimerEvent: {}
+[26.752216] (-) TimerEvent: {}
+[26.852559] (-) TimerEvent: {}
+[26.952914] (-) TimerEvent: {}
+[27.053249] (-) TimerEvent: {}
+[27.153561] (-) TimerEvent: {}
+[27.253873] (-) TimerEvent: {}
+[27.354176] (-) TimerEvent: {}
+[27.454489] (-) TimerEvent: {}
+[27.557725] (-) TimerEvent: {}
+[27.658040] (-) TimerEvent: {}
+[27.758350] (-) TimerEvent: {}
+[27.858683] (-) TimerEvent: {}
+[27.958982] (-) TimerEvent: {}
+[28.059278] (-) TimerEvent: {}
+[28.159616] (-) TimerEvent: {}
+[28.259960] (-) TimerEvent: {}
+[28.360290] (-) TimerEvent: {}
+[28.460616] (-) TimerEvent: {}
+[28.560947] (-) TimerEvent: {}
+[28.662725] (-) TimerEvent: {}
+[28.763063] (-) TimerEvent: {}
+[28.863431] (-) TimerEvent: {}
+[28.963751] (-) TimerEvent: {}
+[29.064124] (-) TimerEvent: {}
+[29.166778] (-) TimerEvent: {}
+[29.267178] (-) TimerEvent: {}
+[29.278106] (moveit2_tutorials) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX executable robot_model_and_robot_state_tutorial\x1b[0m\n'}
+[29.314286] (moveit2_tutorials) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_tutorial\x1b[0m\n'}
+[29.367276] (-) TimerEvent: {}
+[29.400647] (moveit2_tutorials) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX executable motion_planning_api_tutorial\x1b[0m\n'}
+[29.467393] (-) TimerEvent: {}
+[29.497740] (moveit2_tutorials) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable servo_keyboard_input\x1b[0m\n'}
+[29.567494] (-) TimerEvent: {}
+[29.667907] (-) TimerEvent: {}
+[29.768432] (-) TimerEvent: {}
+[29.868862] (-) TimerEvent: {}
+[29.969247] (-) TimerEvent: {}
+[29.972275] (moveit2_tutorials) StdoutLine: {'line': b'[ 76%] Built target planning_scene_tutorial\n'}
+[30.006770] (moveit2_tutorials) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object doc/examples/realtime_servo/CMakeFiles/servo_cpp_interface_demo.dir/src/servo_cpp_interface_demo.cpp.o\x1b[0m\n'}
+[30.045904] (moveit2_tutorials) StdoutLine: {'line': b'[ 80%] Built target robot_model_and_robot_state_tutorial\n'}
+[30.069349] (-) TimerEvent: {}
+[30.072786] (moveit2_tutorials) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object doc/how_to_guides/using_ompl_constrained_planning/CMakeFiles/ompl_constrained_planning.dir/src/ompl_constrained_planning_tutorial.cpp.o\x1b[0m\n'}
+[30.169478] (-) TimerEvent: {}
+[30.269847] (-) TimerEvent: {}
+[30.335737] (moveit2_tutorials) StdoutLine: {'line': b'[ 84%] Built target motion_planning_api_tutorial\n'}
+[30.369944] (-) TimerEvent: {}
+[30.470230] (-) TimerEvent: {}
+[30.570510] (-) TimerEvent: {}
+[30.670790] (-) TimerEvent: {}
+[30.771757] (-) TimerEvent: {}
+[30.872058] (-) TimerEvent: {}
+[30.972638] (-) TimerEvent: {}
+[31.072916] (-) TimerEvent: {}
+[31.173246] (-) TimerEvent: {}
+[31.268829] (moveit2_tutorials) StdoutLine: {'line': b'[ 84%] Built target servo_keyboard_input\n'}
+[31.273355] (-) TimerEvent: {}
+[31.373692] (-) TimerEvent: {}
+[31.474031] (-) TimerEvent: {}
+[31.574479] (-) TimerEvent: {}
+[31.674780] (-) TimerEvent: {}
+[31.775095] (-) TimerEvent: {}
+[31.875406] (-) TimerEvent: {}
+[31.975769] (-) TimerEvent: {}
+[32.076092] (-) TimerEvent: {}
+[32.176384] (-) TimerEvent: {}
+[32.276701] (-) TimerEvent: {}
+[32.377015] (-) TimerEvent: {}
+[32.477352] (-) TimerEvent: {}
+[32.577813] (-) TimerEvent: {}
+[32.678256] (-) TimerEvent: {}
+[32.778536] (-) TimerEvent: {}
+[32.878838] (-) TimerEvent: {}
+[32.979164] (-) TimerEvent: {}
+[33.079476] (-) TimerEvent: {}
+[33.179765] (-) TimerEvent: {}
+[33.280093] (-) TimerEvent: {}
+[33.380466] (-) TimerEvent: {}
+[33.480756] (-) TimerEvent: {}
+[33.581102] (-) TimerEvent: {}
+[33.681437] (-) TimerEvent: {}
+[33.781755] (-) TimerEvent: {}
+[33.882239] (-) TimerEvent: {}
+[33.982675] (-) TimerEvent: {}
+[34.082991] (-) TimerEvent: {}
+[34.183310] (-) TimerEvent: {}
+[34.283629] (-) TimerEvent: {}
+[34.383912] (-) TimerEvent: {}
+[34.484188] (-) TimerEvent: {}
+[34.584522] (-) TimerEvent: {}
+[34.684840] (-) TimerEvent: {}
+[34.785157] (-) TimerEvent: {}
+[34.885457] (-) TimerEvent: {}
+[34.957823] (moveit2_tutorials) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking CXX executable planning_scene_ros_api_tutorial\x1b[0m\n'}
+[34.985594] (-) TimerEvent: {}
+[35.085978] (-) TimerEvent: {}
+[35.186330] (-) TimerEvent: {}
+[35.286644] (-) TimerEvent: {}
+[35.387015] (-) TimerEvent: {}
+[35.486599] (moveit2_tutorials) StdoutLine: {'line': b'[ 88%] Built target planning_scene_ros_api_tutorial\n'}
+[35.487104] (-) TimerEvent: {}
+[35.587362] (-) TimerEvent: {}
+[35.687843] (-) TimerEvent: {}
+[35.710115] (moveit2_tutorials) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking CXX executable moveit_cpp_tutorial\x1b[0m\n'}
+[35.787964] (-) TimerEvent: {}
+[35.888278] (-) TimerEvent: {}
+[35.988613] (-) TimerEvent: {}
+[36.088979] (-) TimerEvent: {}
+[36.189331] (-) TimerEvent: {}
+[36.289704] (-) TimerEvent: {}
+[36.364226] (moveit2_tutorials) StdoutLine: {'line': b'[ 92%] Built target moveit_cpp_tutorial\n'}
+[36.389810] (-) TimerEvent: {}
+[36.490088] (-) TimerEvent: {}
+[36.590377] (-) TimerEvent: {}
+[36.690661] (-) TimerEvent: {}
+[36.791006] (-) TimerEvent: {}
+[36.891296] (-) TimerEvent: {}
+[36.991578] (-) TimerEvent: {}
+[37.091898] (-) TimerEvent: {}
+[37.192212] (-) TimerEvent: {}
+[37.292497] (-) TimerEvent: {}
+[37.392777] (-) TimerEvent: {}
+[37.493054] (-) TimerEvent: {}
+[37.593351] (-) TimerEvent: {}
+[37.693650] (-) TimerEvent: {}
+[37.793974] (-) TimerEvent: {}
+[37.894268] (-) TimerEvent: {}
+[37.994576] (-) TimerEvent: {}
+[38.094875] (-) TimerEvent: {}
+[38.195189] (-) TimerEvent: {}
+[38.295482] (-) TimerEvent: {}
+[38.395782] (-) TimerEvent: {}
+[38.496071] (-) TimerEvent: {}
+[38.596359] (-) TimerEvent: {}
+[38.696728] (-) TimerEvent: {}
+[38.797013] (-) TimerEvent: {}
+[38.897293] (-) TimerEvent: {}
+[38.997573] (-) TimerEvent: {}
+[39.097898] (-) TimerEvent: {}
+[39.198180] (-) TimerEvent: {}
+[39.298457] (-) TimerEvent: {}
+[39.398779] (-) TimerEvent: {}
+[39.499059] (-) TimerEvent: {}
+[39.599340] (-) TimerEvent: {}
+[39.699627] (-) TimerEvent: {}
+[39.799952] (-) TimerEvent: {}
+[39.900249] (-) TimerEvent: {}
+[40.000543] (-) TimerEvent: {}
+[40.100837] (-) TimerEvent: {}
+[40.201137] (-) TimerEvent: {}
+[40.301435] (-) TimerEvent: {}
+[40.401746] (-) TimerEvent: {}
+[40.502022] (-) TimerEvent: {}
+[40.602299] (-) TimerEvent: {}
+[40.702570] (-) TimerEvent: {}
+[40.802845] (-) TimerEvent: {}
+[40.903132] (-) TimerEvent: {}
+[41.003431] (-) TimerEvent: {}
+[41.103764] (-) TimerEvent: {}
+[41.204082] (-) TimerEvent: {}
+[41.304361] (-) TimerEvent: {}
+[41.404646] (-) TimerEvent: {}
+[41.504995] (-) TimerEvent: {}
+[41.543580] (moveit2_tutorials) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable ompl_constrained_planning\x1b[0m\n'}
+[41.605121] (-) TimerEvent: {}
+[41.705405] (-) TimerEvent: {}
+[41.805736] (-) TimerEvent: {}
+[41.906022] (-) TimerEvent: {}
+[42.006355] (-) TimerEvent: {}
+[42.106674] (-) TimerEvent: {}
+[42.115614] (moveit2_tutorials) StdoutLine: {'line': b'[ 96%] Built target ompl_constrained_planning\n'}
+[42.206811] (-) TimerEvent: {}
+[42.307098] (-) TimerEvent: {}
+[42.407370] (-) TimerEvent: {}
+[42.507634] (-) TimerEvent: {}
+[42.607934] (-) TimerEvent: {}
+[42.708202] (-) TimerEvent: {}
+[42.808467] (-) TimerEvent: {}
+[42.908758] (-) TimerEvent: {}
+[43.009035] (-) TimerEvent: {}
+[43.109306] (-) TimerEvent: {}
+[43.209574] (-) TimerEvent: {}
+[43.309876] (-) TimerEvent: {}
+[43.410146] (-) TimerEvent: {}
+[43.510407] (-) TimerEvent: {}
+[43.610695] (-) TimerEvent: {}
+[43.710983] (-) TimerEvent: {}
+[43.811253] (-) TimerEvent: {}
+[43.911518] (-) TimerEvent: {}
+[44.011741] (-) TimerEvent: {}
+[44.112004] (-) TimerEvent: {}
+[44.212295] (-) TimerEvent: {}
+[44.312564] (-) TimerEvent: {}
+[44.412849] (-) TimerEvent: {}
+[44.513130] (-) TimerEvent: {}
+[44.613398] (-) TimerEvent: {}
+[44.713692] (-) TimerEvent: {}
+[44.813960] (-) TimerEvent: {}
+[44.853568] (moveit2_tutorials) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable servo_cpp_interface_demo\x1b[0m\n'}
+[44.914095] (-) TimerEvent: {}
+[45.014372] (-) TimerEvent: {}
+[45.114649] (-) TimerEvent: {}
+[45.214961] (-) TimerEvent: {}
+[45.232133] (moveit2_tutorials) StdoutLine: {'line': b'[100%] Built target servo_cpp_interface_demo\n'}
+[45.307702] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[45.330639] (-) TimerEvent: {}
+[45.340367] (moveit2_tutorials) JobProgress: {'identifier': 'moveit2_tutorials', 'progress': 'install'}
+[45.353910] (moveit2_tutorials) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tejas/moveit2_obb/build/moveit2_tutorials'], 'cwd': '/home/tejas/moveit2_obb/build/moveit2_tutorials', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tejas'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tejas'), ('OLDPWD', '/home/tejas/moveit2_obb/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1693'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tejas/moveit2_obb/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tejas'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tejas'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tejas-OptiPlex-3070:@/tmp/.ICE-unix/1669,unix/tejas-OptiPlex-3070:/tmp/.ICE-unix/1669'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/81c9066c_59da_460f_85e3_841eaa02db0f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_IN'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OF1RG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tejas/moveit2_obb/build/moveit2_tutorials'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tejas/moveit2_obb/install/yolov8_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tejas/moveit2_obb/install/yolov8_obb:/home/tejas/moveit2_obb/install/yolov8_msgs:/home/tejas/moveit2_obb/install/robot_description:/home/tejas/moveit2_obb/install/panda_moveit_config:/opt/ros/humble')]), 'shell': False}
+[45.369021] (moveit2_tutorials) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[45.369700] (moveit2_tutorials) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[45.370021] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/demo.launch.py\n'}
+[45.377739] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_hello_moveit.rviz\n'}
+[45.385833] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo.rviz\n'}
+[45.394330] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/panda_moveit_config_demo_empty.rviz\n'}
+[45.401945] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/mtc_tutorial\n'}
+[45.409227] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/minimal_mtc_tutorial\n'}
+[45.416994] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc.rviz\n'}
+[45.423937] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo.launch.py\n'}
+[45.430713] (-) TimerEvent: {}
+[45.431115] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/mtc_demo_minimal.launch.py\n'}
+[45.438113] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/pick_place_demo.launch.py\n'}
+[45.445640] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/motion_planning_api_tutorial\n'}
+[45.453484] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/motion_planning_api_tutorial.launch.py\n'}
+[45.461563] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/move_group_interface_tutorial\n'}
+[45.470183] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.launch.py\n'}
+[45.477458] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group.rviz\n'}
+[45.484524] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/move_group_interface_tutorial.launch.py\n'}
+[45.491983] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_move_group\n'}
+[45.499252] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/pilz_mtc\n'}
+[45.507033] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/pilz_mtc.launch.py\n'}
+[45.514598] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_tutorial\n'}
+[45.522065] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_tutorial.launch.py\n'}
+[45.529526] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/planning_scene_ros_api_tutorial\n'}
+[45.530792] (-) TimerEvent: {}
+[45.537168] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/planning_scene_ros_api_tutorial.launch.py\n'}
+[45.544574] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/robot_model_and_robot_state_tutorial\n'}
+[45.552081] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/robot_model_and_robot_state_tutorial.launch.py\n'}
+[45.559980] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/moveit_cpp_tutorial\n'}
+[45.568409] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.launch.py\n'}
+[45.575743] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/moveit_cpp_tutorial.rviz\n'}
+[45.583333] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_cpp.yaml\n'}
+[45.590950] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/servo_keyboard_input\n'}
+[45.598301] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/servo_cpp_interface_demo\n'}
+[45.605846] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/servo_cpp_interface_demo.launch.py\n'}
+[45.613370] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/config/demo_rviz_config.rviz\n'}
+[45.621054] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/chomp_demo.launch.py\n'}
+[45.628510] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/config/moveit_chomp.rviz\n'}
+[45.630863] (-) TimerEvent: {}
+[45.636249] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/lib/moveit2_tutorials/ompl_constrained_planning\n'}
+[45.644776] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.launch.py\n'}
+[45.652871] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/launch/ompl_constrained_planning.rviz\n'}
+[45.661615] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/ament_index/resource_index/package_run_dependencies/moveit2_tutorials\n'}
+[45.670638] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/ament_index/resource_index/parent_prefix_path/moveit2_tutorials\n'}
+[45.679897] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.sh\n'}
+[45.688164] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/environment/ament_prefix_path.dsv\n'}
+[45.696013] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.sh\n'}
+[45.703068] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/environment/path.dsv\n'}
+[45.710314] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.bash\n'}
+[45.717536] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.sh\n'}
+[45.724727] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.zsh\n'}
+[45.730970] (-) TimerEvent: {}
+[45.731979] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/local_setup.dsv\n'}
+[45.739298] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/package.dsv\n'}
+[45.746643] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/ament_index/resource_index/packages/moveit2_tutorials\n'}
+[45.753888] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[45.761750] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[45.770055] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig.cmake\n'}
+[45.777221] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/cmake/moveit2_tutorialsConfig-version.cmake\n'}
+[45.784548] (moveit2_tutorials) StdoutLine: {'line': b'-- Symlinking: /home/tejas/moveit2_obb/install/moveit2_tutorials/share/moveit2_tutorials/package.xml\n'}
+[45.803517] (moveit2_tutorials) CommandEnded: {'returncode': 0}
+[45.831160] (-) TimerEvent: {}
+[45.916848] (moveit2_tutorials) JobEnded: {'identifier': 'moveit2_tutorials', 'rc': 0}
+[45.920952] (-) EventReactorShutdown: {}

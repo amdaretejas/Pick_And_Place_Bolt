@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/src/moveit2_tutorials/doc/examples/pilz_industrial_motion_planner/launch/pilz_mtc.launch.py

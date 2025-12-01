@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/tejas/moveit2_obb/build/moveit2_tutorials/doc/examples/planning_scene/planning_scene_tutorial" "TARGETS" "planning_scene_tutorial" "DESTINATION" "lib/moveit2_tutorials")

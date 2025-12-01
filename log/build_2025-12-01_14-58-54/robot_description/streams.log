@@ -1,0 +1,69 @@
+[0.031s] Invoking command in '/home/tejas/moveit2_obb/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/robot_description
+[0.136s] -- The C compiler identification is GNU 11.4.0
+[0.249s] -- The CXX compiler identification is GNU 11.4.0
+[0.259s] -- Detecting C compiler ABI info
+[0.392s] -- Detecting C compiler ABI info - done
+[0.406s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.406s] -- Detecting C compile features
+[0.410s] -- Detecting C compile features - done
+[0.411s] -- Detecting CXX compiler ABI info
+[0.569s] -- Detecting CXX compiler ABI info - done
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.589s] -- Detecting CXX compile features
+[0.589s] -- Detecting CXX compile features - done
+[0.591s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.844s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.949s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.985s] -- Found urdf: 2.6.1 (/opt/ros/humble/share/urdf/cmake)
+[1.164s] -- Configuring done
+[1.167s] -- Generating done
+[1.168s] -- Build files have been written to: /home/tejas/moveit2_obb/build/robot_description
+[1.179s] Invoked command in '/home/tejas/moveit2_obb/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tejas/moveit2_obb/src/robot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tejas/moveit2_obb/install/robot_description
+[1.184s] Invoking command in '/home/tejas/moveit2_obb/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/robot_description -- -j6 -l6
+[1.251s] Invoked command in '/home/tejas/moveit2_obb/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tejas/moveit2_obb/build/robot_description -- -j6 -l6
+[1.253s] Invoking command in '/home/tejas/moveit2_obb/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/robot_description
+[1.273s] -- Install configuration: ""
+[1.273s] -- Execute custom install script
+[1.273s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/camera.stl
+[1.284s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/finger.stl
+[1.300s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/finger_old.stl
+[1.313s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/hand.stl
+[1.332s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link0.stl
+[1.346s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link1.stl
+[1.359s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link2.stl
+[1.373s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link3.stl
+[1.385s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link4.stl
+[1.398s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link5.stl
+[1.411s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link6.stl
+[1.423s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/collision/link7.stl
+[1.436s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/camera.dae
+[1.451s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/finger.dae
+[1.470s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/finger_old.dae
+[1.497s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/hand.dae
+[1.512s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link0.dae
+[1.525s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link1.dae
+[1.535s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link2.dae
+[1.553s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link3.dae
+[1.571s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link4.dae
+[1.587s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link5.dae
+[1.602s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link6.dae
+[1.617s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/meshes/visual/link7.dae
+[1.633s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/camera/camera.gazebo
+[1.646s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/camera/camera.xacro
+[1.659s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/urdf/panda.urdf
+[1.681s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.692s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.710s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.722s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.738s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/path.sh
+[1.753s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/environment/path.dsv
+[1.769s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.bash
+[1.781s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.sh
+[1.792s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.zsh
+[1.807s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/local_setup.dsv
+[1.818s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/package.dsv
+[1.834s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.848s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.861s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.880s] -- Symlinking: /home/tejas/moveit2_obb/install/robot_description/share/robot_description/package.xml
+[1.896s] Invoked command in '/home/tejas/moveit2_obb/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tejas/moveit2_obb/build/robot_description

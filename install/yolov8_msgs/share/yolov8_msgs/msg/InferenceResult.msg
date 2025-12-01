@@ -1,0 +1,1 @@
+/home/tejas/moveit2_obb/src/yolov8_obb_msgs/msg/InferenceResult.msg
